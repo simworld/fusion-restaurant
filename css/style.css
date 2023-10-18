@@ -7,12 +7,19 @@
   --coral: #e27a63;
   --light-coral: #e38874;
   --border: #d9deec;
+  --grey: #b2b2b2;
   --roboto: "Roboto", sans-serif;
   --spectral: "Spectral", serif;
 }
 
 h1 {
   font-size: clamp(44px, 3vw, 44px);
+}
+h2 {
+  font-size: clamp(26px, 3vw, 40px);
+}
+h3 {
+  font-size: clamp(24px, 3vw, 32px);
 }
 
 p {
@@ -85,8 +92,6 @@ nav {
   background-image: url(/img/banner-bg.jpg);
   background-repeat: no-repeat;
   background-position: top;
-  display: flex;
-  justify-content: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -224,4 +229,87 @@ nav {
 .menu-items p {
   font-family: var(--spectral);
   font-size: clamp(24px, 3vw, 24px);
+}
+
+/* Reservation section */
+
+.reservation-form {
+  width: 100vw;
+  /* height: 100vh; */
+  overflow-y: hidden;
+  background-image: url(/img/book-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.reservation-form h2 {
+  text-transform: uppercase;
+  margin: 100px 0;
+}
+
+.reservation-image {
+  width: 90vw;
+}
+.reservation-image img {
+  vertical-align: middle;
+}
+
+.form-container {
+  background-color: white;
+  /* padding: 60px; */
+  width: 90vw;
+  /* height: 100%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  padding-bottom: 20px;
+}
+
+.form-container h3 {
+  padding: 20px;
+  font-family: var(--spectral);
+}
+
+.form-container p {
+  padding: 5px;
+}
+
+form select,
+input {
+  width: 70vw;
+  border: none;
+  background: none;
+  border-bottom: 1px solid var(--border);
+  color: var(--grey);
+  /* font-size: 18px; */
+}
+
+.form-item {
+  padding: 20px 10px;
+}
+
+#book-table {
+  background-color: var(--coral);
+  border: none;
+  /* width: 160px; */
+  height: 40px;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.download {
+  background-color: var(--coral);
+  width: 100vw;
 }
