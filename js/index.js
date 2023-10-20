@@ -6,7 +6,6 @@ import { readMoreLess } from "./modules/read-more-less.js";
 import { displayModal } from "./modules/modal.js";
 
 document.addEventListener("DOMContentLoaded", () => {
-  console.log("test");
   hamburger();
   scrollFunction();
   readMoreLess();
