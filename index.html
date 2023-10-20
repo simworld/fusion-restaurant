@@ -42,6 +42,7 @@
       </nav>
     </header>
 
+    <!-- Main image with text -->
     <div class="main-image">
       <div class="main-content">
         <span>here you can find delicious food</span>
@@ -55,36 +56,40 @@
       </div>
     </div>
 
-    <div class="middle-content">
-      <div class="middle-image">
-        <img
-          src="/img/cook_01.jpg"
-          alt="Plate with food"
-          width="370"
-          height="278"
-        />
-      </div>
-
-      <div class="middle-text">
-        <h2>Delicious Food</h2>
-        <div class="phone">
-          <p>you can call us on</p>
-          <p>+ 1234 567 8910</p>
+    <!-- Middle part with image and phone -->
+    <div class="middle-part">
+      <div class="middle-content">
+        <div class="middle-image">
+          <img
+            src="/img/cook_01.jpg"
+            alt="Plate with food"
+            width="370"
+            height="278"
+          />
         </div>
-        <p class="or">or</p>
-        <button>Order Now</button>
-      </div>
 
-      <div class="middle-image">
-        <img
-          src="/img/cook_02.jpg"
-          alt="Plate with food"
-          width="370"
-          height="278"
-        />
+        <div class="middle-text">
+          <h2>Delicious Food</h2>
+          <div class="phone">
+            <p>you can call us on</p>
+            <p>+ 1234 567 8910</p>
+          </div>
+          <p class="or">or</p>
+          <button>Order Now</button>
+        </div>
+
+        <div class="middle-image">
+          <img
+            src="/img/cook_02.jpg"
+            alt="Plate with food"
+            width="370"
+            height="278"
+          />
+        </div>
       </div>
     </div>
 
+    <!-- Menu items -->
     <div class="menu-items">
       <div class="item">
         <img
@@ -114,59 +119,346 @@
       </div>
     </div>
 
+    <!-- Booking form -->
     <div class="reservation-form">
       <h2>Book your table now</h2>
-      <div class="reservation-image">
-        <img
-          src="/img/book_left_image.jpg"
-          alt="Table Restaurant"
-          width="370"
-          height="290"
-        />
-      </div>
+      <div class="form-wrap">
+        <div class="reservation-image">
+          <img
+            src="/img/book_left_image.jpg"
+            alt="Table Restaurant"
+            width="370"
+            height="290"
+          />
+        </div>
 
-      <div class="form-container">
-        <h3>Reservation</h3>
+        <div class="form-container">
+          <h3>Reservation</h3>
 
-        <form action="#">
-          <!-- <label for="day">Select day</label> -->
+          <form action="#">
+            <!-- <label for="day">Select day</label> -->
 
-          <div class="form-item">
-            <select id="day" name="day">
-              <option value="day">Select day</option>
-            </select>
-          </div>
+            <div class="form-item-container">
+              <div class="form-row">
+                <div class="form-item">
+                  <select id="day" name="day">
+                    <option value="day">Select day</option>
+                    <option value="mon">Monday</option>
+                    <option value="tue">Tuesday</option>
+                    <option value="wed">Wednesday</option>
+                    <option value="thu">Thursday</option>
+                    <option value="fri">Friday</option>
+                    <option value="sat">Saturday</option>
+                    <option value="sun">Sunday</option>
+                  </select>
+                </div>
 
-          <div class="form-item">
-            <select id="hour" name="hour">
-              <option value="hour">Select hour</option>
-            </select>
-          </div>
+                <div class="form-item">
+                  <select id="hour" name="hour">
+                    <option value="hour">Select hour</option>
+                    <option value="13:00">13:00</option>
+                    <option value="13:30">13:30</option>
+                    <option value="14:00">14:00</option>
+                    <option value="14:30">14:30</option>
+                    <option value="15:00">15:00</option>
+                    <option value="15:30">15:30</option>
+                    <option value="16:00">16:00</option>
+                    <option value="16:30">16:30</option>
+                    <option value="17:00">17:00</option>
+                    <option value="17:30">17:30</option>
+                    <option value="18:00">18:00</option>
+                    <option value="19:00">19:00</option>
+                    <option value="20:00">20:00</option>
+                    <option value="21:00">21:00</option>
+                    <option value="22:00">22:00</option>
+                  </select>
+                </div>
+              </div>
 
-          <div class="form-item">
-            <input type="text" id="fname" name="fname" value="Full Name" />
-          </div>
+              <div class="form-row">
+                <div class="form-item">
+                  <input
+                    type="text"
+                    id="fname"
+                    name="fname"
+                    value="Full Name"
+                  />
+                </div>
 
-          <div class="form-item">
-            <input type="tel" id="phone" name="phone" value="Phone Number" />
-          </div>
+                <div class="form-item">
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    value="Phone Number"
+                  />
+                </div>
+              </div>
 
-          <div class="form-item">
-            <select id="guests" name="guests">
-              <option value="guests">How many persons?</option>
-            </select>
-          </div>
+              <div class="form-row">
+                <div class="form-item">
+                  <select id="guests" name="guests">
+                    <option value="guests">How many persons?</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                  </select>
+                </div>
 
-          <div class="form-item">
-            <input id="book-table" type="button" value="BOOK TABLE" />
-          </div>
-        </form>
+                <div class="form-item">
+                  <input id="book-table" type="button" value="BOOK TABLE" />
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
 
+    <!-- Download app section -->
     <div class="download">
-      <p>download app for your phone</p>
-      <button>download now</button>
+      <h2>Download app for your phone</h2>
+      <button>Download now</button>
     </div>
+
+    <!-- Featured food section -->
+    <div class="featured-food">
+      <h2>Weekly featured food</h2>
+
+      <div class="items-container">
+        <article>
+          <h3>Breakfast</h3>
+
+          <div class="article-content">
+            <div class="article-image">
+              <img
+                src="/img/breakfast_item.jpg"
+                alt="Breakfast"
+                width="310"
+                height="180"
+              />
+
+              <div class="price">$4.50</div>
+            </div>
+
+            <div class="article-text">
+              <h4>Porridge in a bowl</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+                aliquid, illo officia obcaecati minima reiciendis excepturi amet
+                quos tempore similique consectetur minus corrupti. Suscipit
+                quibusdam, nesciunt quod vitae officiis omnis!
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <article>
+          <h3>Lunch</h3>
+          <div class="article-content">
+            <div class="article-image">
+              <img
+                src="/img/lunch_item.jpg"
+                alt="Lunch"
+                width="310"
+                height="180"
+              />
+              <div class="price">$7.50</div>
+            </div>
+
+            <div class="article-text">
+              <h4>Beef Stir Fry</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+                aliquid, illo officia obcaecati minima reiciendis excepturi amet
+                quos tempore similique consectetur minus corrupti. Suscipit
+                quibusdam, nesciunt quod vitae officiis omnis!
+              </p>
+            </div>
+          </div>
+        </article>
+        <article>
+          <h3>Dinner</h3>
+          <div class="article-content">
+            <div class="article-image">
+              <img
+                src="/img/dinner_item.jpg"
+                alt="Dinner"
+                width="310"
+                height="180"
+              />
+              <div class="price">$12.50</div>
+            </div>
+
+            <div class="article-text">
+              <h4>Squid Bean Salad</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+                aliquid, illo officia obcaecati minima reiciendis excepturi amet
+                quos tempore similique consectetur minus corrupti. Suscipit
+                quibusdam, nesciunt quod vitae officiis omnis!
+              </p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <!-- Blog section -->
+    <div class="blog">
+      <h2>Our Blog Post</h2>
+
+      <div class="items-container blog">
+        <article>
+          <div class="article-content">
+            <div class="article-image">
+              <img
+                src="/img/blog_post_01.jpg"
+                alt="Candle holder"
+                width="270"
+                height="237"
+              />
+
+              <div class="date">26 Feb 2023</div>
+            </div>
+
+            <div class="article-text">
+              <h3>Stumptown Tofu Schlitz</h3>
+              <p>Branding / Admin</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+                viverra tincidunt sapienl a egestas turpis volutoat at. Nullam
+                congue, diam eget...
+              </p>
+              <p class="read-more">continue reading</p>
+            </div>
+          </div>
+        </article>
+
+        <article>
+          <div class="article-content">
+            <div class="article-image">
+              <img
+                src="/img/blog_post_02.jpg"
+                alt="Piano"
+                width="270"
+                height="237"
+              />
+
+              <div class="date">20 Oct 2023</div>
+            </div>
+
+            <div class="article-text">
+              <h3>Succulents Hashtag Folk</h3>
+              <p>Branding / Admin</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+                viverra tincidunt sapienl a egestas turpis volutoat at. Nullam
+                congue, diam eget...
+              </p>
+              <p class="read-more">continue reading</p>
+            </div>
+          </div>
+        </article>
+
+        <article>
+          <div class="article-content">
+            <div class="article-image">
+              <img
+                src="/img/blog_post_03.jpg"
+                alt="Pine Cone"
+                width="270"
+                height="237"
+              />
+
+              <div class="date">1 Oct 2023</div>
+            </div>
+
+            <div class="article-text">
+              <h3>Knaus Sriracha Pinterest</h3>
+              <p>Dessert / Chef</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+                viverra tincidunt sapienl a egestas turpis volutoat at. Nullam
+                congue, diam eget...
+              </p>
+              <p class="read-more">continue reading</p>
+            </div>
+          </div>
+        </article>
+
+        <article>
+          <div class="article-content">
+            <div class="article-image">
+              <img
+                src="/img/blog_post_04.jpg"
+                alt="Dishes"
+                width="270"
+                height="237"
+              />
+
+              <div class="date">03 Sep 2023</div>
+            </div>
+
+            <div class="article-text">
+              <h3>Crucifix Selvage Coat</h3>
+              <p>Plate / Chef</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+                viverra tincidunt sapienl a egestas turpis volutoat at. Nullam
+                congue, diam eget...
+              </p>
+              <p class="read-more">continue reading</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <!-- Newsletters section -->
+    <div class="newsletters">
+      <h2>Signup for our newsletters</h2>
+      <form action="#">
+        <input
+          type="email"
+          name="email"
+          id="email"
+          value="Enter your email here..."
+        />
+        <input id="submit-newsletter" type="button" value="Send Message" />
+      </form>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <p>Copyright &copy; 2023 Company XYZ</p>
+
+      <div class="social-icons">
+        <a href="http://www.facebook.com"
+          ><i class="fa-brands fa-facebook-f"></i
+        ></a>
+
+        <a href="http://www.twitter.com"
+          ><i class="fa-brands fa-twitter"></i
+        ></a>
+
+        <a href="http://www.linkedin.com"
+          ><i class="fa-brands fa-linkedin-in"></i
+        ></a>
+
+        <a href="#"><i class="fa-solid fa-rss"></i></a>
+
+        <a href="https://dribbble.com/"
+          ><i class="fa-brands fa-dribbble"></i
+        ></a>
+      </div>
+
+      <p>Designed by <a class="company" href="#">Company Name</a></p>
+    </footer>
   </body>
 </html>
