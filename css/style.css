@@ -249,7 +249,7 @@ nav {
 .reservation-form {
   width: 100vw;
   overflow-y: hidden;
-  background-image: url(../img/book-bg.jpg);
+  background-image: url("../img/book-bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
