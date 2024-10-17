@@ -95,7 +95,7 @@ nav {
   width: 100vw;
   height: 70vh;
   overflow-y: hidden;
-  background-image: url(../img/banner-bg.jpg);
+  background-image: url("../img/banner-bg.jpg");
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
