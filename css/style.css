@@ -95,7 +95,7 @@ nav {
   width: 100vw;
   height: 70vh;
   overflow-y: hidden;
-  background-image: url(/img/banner-bg.jpg);
+  background-image: url(img/banner-bg.jpg);
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
@@ -249,7 +249,7 @@ nav {
 .reservation-form {
   width: 100vw;
   overflow-y: hidden;
-  background-image: url(/img/book-bg.jpg);
+  background-image: url(img/book-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -462,7 +462,7 @@ article img {
   width: 100vw;
   /* height: 100vh; */
   overflow-y: hidden;
-  background-image: url(/img/signup-bg.jpg);
+  background-image: url(img/signup-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
